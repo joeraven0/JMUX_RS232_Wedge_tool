@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMUX_RS232", "JMUX_RS232\JMUX_RS232.csproj", "{B78186E5-4575-46A0-B807-E53F923944DF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{3CDE2980-7B47-4CFB-8E3C-E455809E630E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = RS232 to Keyboard
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B78186E5-4575-46A0-B807-E53F923944DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78186E5-4575-46A0-B807-E53F923944DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78186E5-4575-46A0-B807-E53F923944DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78186E5-4575-46A0-B807-E53F923944DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDE2980-7B47-4CFB-8E3C-E455809E630E}.Debug|Any CPU.ActiveCfg = Debug
+		{3CDE2980-7B47-4CFB-8E3C-E455809E630E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B572AA21-3EDA-4FED-8E5B-61977DEF39C2}
+	EndGlobalSection
+EndGlobal
